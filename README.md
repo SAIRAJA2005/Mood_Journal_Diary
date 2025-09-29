@@ -5,7 +5,7 @@ A sophisticated web application built with Streamlit and the Google Gemini API t
 ## 🚀 Live Demo
 
 Experience the app directly on Streamlit Community Cloud:
-👉 **[Launch Mood Diary Compass Here](YOUR_STREAMLIT_CLOUD_LINK_HERE)** 👈
+👉 **[Launch Mood Diary Compass Here](https://mood-journal-dairy.streamlit.app/)** 👈
 
 ## ✨ Key Features
 
@@ -46,7 +46,6 @@ source venv/bin/activate # On Windows, use: .\venv\Scripts\activate
 Install dependencies
 pip install -r requirements.txt
 
-text
 
 ### 3. Configure API Key
 
@@ -66,7 +65,7 @@ Execute the main Streamlit application file:
 
 streamlit run app.py
 
-text
+
 
 The app will automatically open in your browser at `http://localhost:8501`.
 
