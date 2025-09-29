@@ -70,16 +70,19 @@ text
 
 The app will automatically open in your browser at `http://localhost:8501`.
 
-## 📄 File Structure
+## 📁 File Structure
 
+```plaintext
 .
 ├── .streamlit/
-│ └── secrets.toml # For cloud deployment secrets (not committed)
-├── app.py # Streamlit UI, handles user input, and displays output
-├── gemini_logic.py # Core logic for calling the Gemini API and handling Pydantic schemas
-├── requirements.txt # List of all Python dependencies
-├── LICENSE # MIT License
-└── README.md # This file
+│   └── secrets.toml       # For cloud deployment secrets (not committed)
+├── app.py                 # Streamlit UI — handles user input and displays output
+├── gemini_logic.py        # Core logic — calls Gemini API and applies Pydantic schemas
+├── requirements.txt       # Python dependencies
+├── LICENSE                # MIT License
+└── README.md              # Project documentation
+
+```
 
 
 ## 🛣️ Future Enhancements
