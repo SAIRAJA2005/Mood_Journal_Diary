@@ -139,13 +139,13 @@ def display_history():
 # --- Application Layout ---
 
 st.title("Mood Diary Compass 🧭")
-st.markdown("### Analyze your current mood and get personalized wellness advice from Gemini.")
+st.markdown("### Analyze your current mood and get personalized wellness advice from Mood Diary.")
 
 # 1. User Input Area (Text Area)
 st.text_area(
     "✍️ Describe your current feelings or situation:", 
     key="user_text",
-    placeholder="Example: My neighbor keeps throwing trash on my lawn, and the landlord won't do anything about it. I'm absolutely furious."
+    placeholder="Example: I just got a huge promotion at work and am planning a trip to the beach. I feel like everything is finally going my way!"
 )
 
 st.markdown("---")
@@ -185,4 +185,5 @@ if st.session_state.report_data:
     display_report(st.session_state.report_data)
 
 # 5. History Sidebar (Resume Feature)
+
 display_history()
