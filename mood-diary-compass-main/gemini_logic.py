@@ -6,6 +6,7 @@ from typing import List, Literal, Optional, Dict, Any
 
 # --- Pydantic Schema ---
 
+
 # Define a restricted set of mood labels
 Mood = Literal["Joyful", "Happy", "Calm", "Neutral", "Anxious", "Stressed", "Sad", "Angry", "Frustrated"]
 
@@ -97,4 +98,5 @@ def analyze_user_input(
 def get_mood_history():
     """Placeholder for fetching a user's past entries."""
     # In a real app, this would query a database
+
     return []
