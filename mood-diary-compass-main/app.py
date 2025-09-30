@@ -4,6 +4,7 @@ from gemini_logic import analyze_user_input
 import os
 import random
 
+# to run this Project jst go to terminal and type -> strealit run app.py
 # --- Streamlit Configuration ---
 st.set_page_config(
     page_title="Mood Diary Compass",
@@ -187,3 +188,4 @@ if st.session_state.report_data:
 # 5. History Sidebar (Resume Feature)
 
 display_history()
+
